@@ -15,7 +15,7 @@ Sample showing how to deploy to Azure DevSpaces a .NET Core WebAPI that referenc
 
 ```cli
 # Select your Azure DevSpace
-$> azds space select -n dev/fcz -y
+$> azds space select -n <your-devspace> -y
 
 # Check your current context
 $> azds show-context
